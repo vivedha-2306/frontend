@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import RegistrationForm from './RegistrationForm';
 
-const API_BASE = 'http://127.0.0.1:5000';
+const API_BASE = 'https://backend-ov13.onrender.com';
 
 export default function EventDetail() {
   const { id } = useParams();
