@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const API_BASE = 'http://127.0.0.1:5000';
+const API_BASE = 'https://backend-ov13.onrender.com';
 
 export default function AddEvent() {
   const navigate = useNavigate();
